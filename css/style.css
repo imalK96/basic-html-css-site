@@ -127,3 +127,10 @@ header a:hover {
   width: 5em;
   height: auto;
 }
+
+footer {
+  background: #e8491d;
+  color: #fff;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
