@@ -17,6 +17,19 @@ ul {
   margin: 0;
 }
 
+.button-1 {
+  height: 2.3em;
+  background: #e8491d;
+  border: none;
+  color: #fff;
+  padding: 0 20px 0 20px;
+}
+.button-1:hover {
+  background: #fff;
+  color: #e8491d;
+  border: #e8491d 0.2em solid;
+}
+
 /* Header */
 header {
   background: #35424a;
@@ -35,6 +48,7 @@ header a {
 
 header li {
   display: inline;
+  float: left;
   padding: 0 1em 0 1em;
 }
 
@@ -77,4 +91,23 @@ header a:hover {
 
 #showcase p {
   font-size: 1.2em;
+}
+
+/* Newsletter */
+#newsletter {
+  background: #35424a;
+  color: #fff;
+  padding: 0.5em;
+}
+#newsletter h1 {
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 1.4em;
+}
+#newsletter input[type="email"] {
+  padding: 0.5em;
+  height: 1em;
+  width: 15em;
 }
