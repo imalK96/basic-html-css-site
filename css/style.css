@@ -141,6 +141,7 @@ header a:hover {
 aside#sidebar {
   float: right;
   width: 30%;
+  padding: 0 0.5em 0 0.5em;
 }
 aside#sidebar h3 {
   padding-top: 0.5em;
@@ -159,6 +160,7 @@ article#main-col {
   width: 60%;
   float: left;
   text-align: justify;
+  margin-bottom: 13em;
 }
 
 /* Services */
@@ -175,4 +177,42 @@ footer {
   color: #fff;
   padding: 0.5em 0 0.5em 0;
   text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  aside#sidebar {
+    padding: 0;
+  }
+  header {
+    padding-bottom: 1em;
+  }
+  #showcase h1 {
+    margin-top: 1em;
+  }
+  #newsletter button,
+  .quote button {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  #newsletter form input[type="email"] {
+    width: 100%;
+  }
+  article#main-col {
+    margin-bottom: 0;
+  }
 }
