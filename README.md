@@ -1,6 +1,7 @@
 # Basic HTML CSS Website
 
 A website for a dummy web design company - Acme Web Design
+* [Link to Live Demo](https://imalk96.github.io/basic-html-css-site/)
 
 ## Description
 
